@@ -8,7 +8,7 @@ export default defineConfig({
   server: {
     proxy: {
       // Any request starting with /api is forwarded to our Node backend
-      '/api': 'http://localhost:5000',
+      '/api': 'https://cyberguard-backend-d4ip.onrender.com/',
     },
   },
 })
